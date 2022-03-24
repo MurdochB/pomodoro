@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0px;
+  font-family: Arial;
+}
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 15vw;
+}
+#timeType{
+  font-size: 1vw;
+}
+.focus {
+  background: rgb(145, 7, 78);
+}
+.cooldown {
+  background: rgb(20, 94, 150);
+}

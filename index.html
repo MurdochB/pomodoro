@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pomodoro</title>
+  <meta name="author" content="Brandon Murdoch">
+  <link rel="stylesheet" href="css/pomodoro.css">
+</head>
+<body>  
+  <div id="screen" class="fullscreen focus">
+    <span id="timeType">You're in focus time</span>
+    <span id="clock" title="It's focus time">:</span>
+    <button id="pause" onClick="pause()">Pause</button>
+    <button id="reset" onClick="reset()">Reset</button>
+  </div>
+  <audio id="chimeAudio" controls>
+    <source src="./assets/chime.wav" type="audio/wav">
+  </audio>
+  <script src="./script/pomodoro.js"></script>
+</body>
+</html>
